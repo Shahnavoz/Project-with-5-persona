@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.all1{
+    background-image: url(./Amirov/img.Amirov/svg.png);
+    width: 50%;
+}
+.all{
+   background-image: url(./Amirov/img.Amirov/bg\ \(4\).png);
+}
+.all2{
+    background-image: url(./Amirov/img.Amirov/Rectangle\ 306.png);
+}
