@@ -24,18 +24,7 @@
             <nav class="text-gray-500 hidden lg:block">
                 <p>info@gormedcentre.ru</p>
                 <p>Заказать звонок</p>
-            </nav>    <p>Отзывы</p>
-            <p>Акции</p>
-            <p>О центре</p>
-            <p>Детство</p>
-            <p>Контакты</p>
-            <div class="items-center flex gap-3">
-                <img src="./img.Amirov/icon (8).png" alt="">
-                <p>Версия для слабовидящих</p>
-            </div>
-            <button class="bg-[#00578a] text-white p-2 rounded">Запись на приём</button>
-        </nav>
-    </header>
+            </nav>
             <nav class="text-gray-500 hidden lg:block">
                 <p>г. Мытищи,</p>
                 <p>ул.Рождественская, д.7</p>
@@ -54,7 +43,18 @@
             <p>Направления</p>
             <p>Услуги</p>
             <p>Врачи</p>
-        
+            <p>Отзывы</p>
+            <p>Акции</p>
+            <p>О центре</p>
+            <p>Детство</p>
+            <p>Контакты</p>
+            <div class="items-center flex gap-3">
+                <img src="./img.Amirov/icon (8).png" alt="">
+                <p>Версия для слабовидящих</p>
+            </div>
+            <button class="bg-[#00578a] text-white p-2 rounded">Запись на приём</button>
+        </nav>
+    </header>
     <main>
         <section class="all block text-center lg:text-start lg:flex justify-around items-center text-white mt-10">
             <aside>
@@ -393,41 +393,107 @@
             </aside>
         </section>
     </main>
-    <footer>
-        <div class="flex justify-between p-10 items-center">
-            <img src="./img.Amirov/logo (1).svg" alt="">
-            <p>Направления</p>
-            <p>Услуги</p>
-            <p>Врачи</p>
-            <p>Отзывы</p>
-            <p>Акции</p>
-            <p>О центре</p>
-            <p>Детство</p>
-            <p>Контакты</p>
-        </div>
-        <div>
+    <footer class="bg-[#F0F6F9] p-[20px] lg:h-[350px]">
+        <div class="lg:flex lg:gap-[80px]">
+
             <div>
-                <p>© 2011-2023 Городской Медицинский <br> Центр. Все права защищены.</p>
-                <p></p>
+                <img src="./img.Amirov/logo (1).svg">
             </div>
-            <div>
-                <p>8 (495) 926-06-03</p>
-                <p>8 (495) 588-08-80</p>
-                <div>
-                    <img src="" alt="">
-                    <p></p>
-                </div>
-            </div>
-            <div>
-                <p>г. Мытищи, ул.Рождественская, д.7</p>
-                <p>Ежедневно с 9.00 до 21.00</p>
-                <div>
-                    <img src="" alt="">
-                    <p></p>
-                </div>
+            <div class="mt-[30px]">
+                <ul class="flex flex-col gap-[10px] lg:flex lg:flex-row lg:gap-[30px]">
+                    <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Направления</li>
+                    <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Услуги</li>
+                    <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Врачи</li>
+                    <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Отзывы</li>
+                    <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Акции</li>
+                    <li class="text-[25px] lg:text-[18px] text-[#4F4F4F] flex gap-[10px] items-center">О центре<i
+                            class="fa-solid fa-caret-down"></i></li>
+                    <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Детство</li>
+                    <li class="text-[25px] lg:text-[18px] text-[#4F4F4F]">Контакты</li>
+                </ul>
             </div>
         </div>
+        </div>
+        <div class="lg:flex gap-[40px]">
+
+            <div class="mt-[40px] pb-[20px] hidden lg:block">
+                <p class="text-[#4F4F4F]">© 2011-2023 Городской Медицинский Центр. Все права защищены.</p>
+                <p class="text-[#7F8D94] pt-[10px] lg:hidden">Политика конфиденциальности</p>
+                <div class="bg-[#7F8D94] w-[235px] h-[1px]"></div>
+            </div>
+            <div class="lg:flex gap-[40px]">
+                <div class="mt-[20px] lg:mt-[30px]">
+                    <p class="text-[35px] lg:text-[30px] lg:w-[240px] text-[#00578A]">8 (495) 926-06-03</p>
+                    <p class="text-[35px] lg:text-[30px] lg:w-[240px] text-[#00578A]">8 (495) 588-08-80</p>
+                </div>
+                <div class="mt-[20px] lg:mt-[30px] ">
+                    <p class="text-[20px] lg:w-[260px]">г. Мытищи, ул.Рождественская, д.7</p>
+                    <div class="flex gap-[10px] text-[20px]">
+                        <p class="text-[gray]">Ежедневно</p>
+                        <p>с 9.00 до 21.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-[30px]"><button class="bg-[#E3EFF5] text-[#4F4F4F] py-[10px] px-[80px] lg:px-[40px]">
+                    <p class="lg:w-[200px]">Заказать обратный звонок</p>
+                </button></div>
+            <div class="mt-[20px] flex gap-[30px] lg:hidden">
+                <div class="flex gap-[10px] items-center">
+                    <img src="./img.Amirov/social.png">
+                    <h1>Написать в Whatsapp</h1>
+                </div>
+                <div class="flex gap-[10px] items-center">
+                    <img src="./img.Amirov/social (1).png">
+                    <h1>Vkontakte</h1>
+                </div>
+            </div>
+            <div class="mt-[50px] text-[20px] lg:hidden">
+                <h1>info@gormedcentre.ru</h1>
+                <div class="flex items-center gap-[10px]">
+                    <i class="fa-solid fa-glasses"></i>
+                    <p>Версия для слабовидящих</p>
+                </div>
+            </div>
+            <div class="mt-[40px] pb-[20px] lg:hidden">
+                <p class="text-[#4F4F4F]">© 2011-2023 Городской Медицинский Центр. Все права защищены.</p>
+                <p class="text-[#7F8D94] pt-[10px]">Политика конфиденциальности</p>
+                <div class="bg-[#7F8D94] w-[235px] h-[1px]"></div>
+            </div>
     </footer>
+    <div class="flex gap-[130px]">
+
+        <div class="hidden lg:block mt-[-80px] ml-[20px]">
+            <p class="text-[#7F8D94] pt-[10px] ">Политика конфиденциальности</p>
+            <div class="bg-[#7F8D94] w-[235px] h-[1px]"></div>
+        </div>
+        <div class="hidden lg:flex gap-[85px] mt-[-100px]">
+
+            <div class="flex gap-[10px] items-center ">
+                <img src="./Bezh.img/social.png">
+                <h1>Написать в Whatsapp</h1>
+            </div>
+            <div class="flex gap-[10px] items-center">
+                <img src="./Bezh.img/social (1).png">
+                <h1>Vkontakte</h1>
+            </div>
+        </div>
+        <div class="text-[20px] mt-[-90px] ml-[40px] text-right hidden lg:block">
+            <h1>info@gormedcentre.ru</h1>
+            <div class="flex items-center gap-[10px]">
+                <i class="fa-solid fa-glasses"></i>
+                <p>Версия для слабовидящих</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="p-[20px] lg:mt-[30px]">
+        Информация о ценах носит уведомительный характер и не является публичной офертой. Действующий прейскурант,
+        заверенный печатью и подписью руководителя, находится на информационных стендах Центра. Деятельность ООО «ГМЦ»
+        осуществляется на основании действующей лицензии, выданной Департаментом здравоохранения города Москвы.
+        <br>
+        <p class="pt-[10px]">Имеются противопоказания. Необходимо проконсультироваться со специалистом</p>
+
+    </div>
 </body>
 
 </html>
