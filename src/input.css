@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.all1{
+    background-image: url(./Amirov/img.Amirov/svg.png);
+    width: 50%;
+}
+.all{
+   background-image: url(./Amirov/img.Amirov/bg\ \(4\).png);
+}
+.all2{
+    background-image: url(./Amirov/img.Amirov/Rectangle\ 306.png);
+}
+.all3{
+    background-image: url(./Amirov/img.Amirov/bg\ \(5\).png);
+    width: 95%;
+    border-radius: 10px;
+}
+.kolp{
+    background-image: url(./Amirov/img.Amirov/bg\ \(6\).png);
+    width: 100%;
+}
+.all5{
+    background-image: url(./Amirov/img.Amirov/bg\ \(7\).png);
+    width: 40%;
+}
